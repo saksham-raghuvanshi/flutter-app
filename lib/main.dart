@@ -3,7 +3,7 @@ import 'custom_widget.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
         body: CustomWidget(),
       ),
