@@ -1,19 +1,11 @@
 import 'package:flutter/material.dart';
+import 'custom_widget.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: Container(
-          decoration: const BoxDecoration(
-              gradient: LinearGradient(colors: [
-            Colors.deepPurple,
-            Color.fromARGB(255, 81, 22, 243)
-          ])),
-          child: const Center(
-            child: Text('Hello World!'),
-          ),
-        ),
+        body: CustomWidget(),
       ),
     ),
   );
